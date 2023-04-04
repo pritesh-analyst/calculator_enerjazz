@@ -20,4 +20,4 @@ total_salary_without_ot = Daily_salary*duties_per_month + (Daily_salary/9)*overt
 
 
 # Display the output
-st.write(f'<p style="font-size:30px; color:green;">Total salary: {total_salary_without_ot:.2f}</p>', unsafe_allow_html=True)
+st.write(f'<p style="font-size:30px; color:green;">Total salary: {total_salary_without_ot}</p>', unsafe_allow_html=True)
