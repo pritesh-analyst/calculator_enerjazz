@@ -20,4 +20,4 @@ total_salary_without_ot = Daily_salary*duties_per_month + (Daily_salary/9)*overt
 
 
 # Display the output
-st.write("Your monthly salary is: ", round(total_salary_without_ot, 2), )
+st.write("Your monthly salary is: ", round(total_salary_without_ot), )
