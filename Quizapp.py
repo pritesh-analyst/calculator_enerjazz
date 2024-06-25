@@ -8,7 +8,10 @@ Ques = {
                       "Anand Shankar Jayant","Alarmel velli","Nartaki natraj","R.Mathukannmal"],
     "Kuchipudi": ["Yamini Krishanmurti","Laxmi narayan shastri","Radha reddi","Raja reddi","Padama reddi","Vedantum satyanarayan","Vempatti chitrasatyam","Mallika sarabhai",
                   "Aparna sathisan","Swapn sundri","Sobha naydu","Haleem Khan","Sidderdra Yogi"]
-    # "Odissi": ["H", "I", "J", "K", "L"],
+
+
+    "Odissi": ["Kelucharan Mahapatra", "Madhvi mudgal", "Harekrishan behra", "Sonal mansingh", "Kiran sehgal", "Rani karn", "Sanyukt panigrahi", "Kalicharan patnayak", "Indrani rehman", 
+               "Mohan mahapatra", "Sujata mahapatra", "Minati mishra", "Kumkum mohanti", Gangadhar pradhan", Durgacharan ranvir"],
     # "Manipuri": ["M", "N"],
     # "Mohiniattam": ["O", "P", "Q"],
     # "Kathakali": ["R", "S", "T"],
