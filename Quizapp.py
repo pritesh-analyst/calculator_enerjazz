@@ -11,11 +11,16 @@ Ques = {
 
 
     "Odissi": ["Kelucharan Mahapatra", "Madhvi mudgal", "Harekrishan behra", "Sonal mansingh", "Kiran sehgal", "Rani karn", "Sanyukt panigrahi", "Kalicharan patnayak", "Indrani rehman", 
-               "Mohan mahapatra", "Sujata mahapatra", "Minati mishra", "Kumkum mohanti", "Gangadhar pradhan", "Durgacharan ranvir"]
+               "Mohan mahapatra", "Sujata mahapatra", "Minati mishra", "Kumkum mohanti", "Gangadhar pradhan", "Durgacharan ranvir"],
+
+    "Kathakali": ["Anand shivraman", "Krishnan kutti", "Balltol narayan menan"," Udaishankar","Krishan narayan", "Shantarav","Keejpadam kumaran nayar", "Chemancheri nayar"],
+    
+    "Kathak": ["Birju maharaj"," Lacchu maharaj", "Sukhdev maharaj","Sitara devi","Sobhna narayan","Chandralekha bindadin maharaj",
+              "Acchan maharaj","Manjushree chatarji","Kalika prasad","Uma sharma","Prerna deshpanday","Nandni singh","Narayan prasad"]
     # "Manipuri": ["M", "N"],
     # "Mohiniattam": ["O", "P", "Q"],
-    # "Kathakali": ["R", "S", "T"],
-    # "Kathak": ["U", "V", "W"],
+    
+    
     # "Sattriya": ["X", "Y", "Z"]
 }
 
