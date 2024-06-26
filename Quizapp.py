@@ -49,9 +49,10 @@ def get_next_question():
     
     return dance_form, all_options, correct_answer
 
+
 def main():
     st.title('Classical Dance Quiz')
-    st.markdown('Select the correct dance form for each question.')
+    st.markdown('Select the correct dancer for each question.')
     
     if 'next_question' not in st.session_state:
         st.session_state.next_question = True
@@ -63,7 +64,7 @@ def main():
         st.session_state.next_question = False
     
     # Display the current question and options
-    st.subheader(f"Who is the Dancer that belongs to '{st.session_state.dance_form}' ?")
+    st.subheader(f"Who is the dancer that belongs to '{st.session_state.dance_form}'?")
     
     # Display options as radio buttons if user_answer is None
     user_answer = st.radio('Your Choices:', st.session_state.options)
@@ -72,15 +73,19 @@ def main():
     if st.button('Submit') and st.session_state.user_answer is None:
         # Check the answer and provide feedback
         st.session_state.user_answer = user_answer
-        st.session_state.feedback = 'Correct!' if st.session_state.user_answer == st.session_state.correct_answer else f"Incorrect. The correct answer is {st.session_state.correct_answer}"
+        if st.session_state.user_answer == st.session_state.correct_answer:
+            st.session_state.feedback = '<p style="background-color: green; padding: 10px; border-radius: 5px;"><b style="color: black;">Correct!</b></p>'
+        else:
+            st.session_state.feedback = f'<p style="background-color: lightcoral; padding: 10px; border-radius: 5px;"><b style="color: black;">Incorrect.</b> The correct answer is <b>{st.session_state.correct_answer}</b></p>'
     
     # Display feedback and next button if the answer has been submitted
     if st.session_state.feedback:
-        st.write(st.session_state.feedback)
+        st.markdown(st.session_state.feedback, unsafe_allow_html=True)
         
         if st.button('Next'):
             st.session_state.next_question = True
             st.experimental_rerun()  # Force rerun to update state immediately
+
 
 if __name__ == '__main__':
     main()
