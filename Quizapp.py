@@ -41,7 +41,7 @@ def get_next_question():
     
     # Shuffle other options and pick 3
     random.shuffle(other_options)
-    other_options = other_options[:3]
+    other_options = other_options[:7]
     
     # Combine correct answer and other options
     all_options = [correct_answer] + other_options
