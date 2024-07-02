@@ -16,7 +16,7 @@ Ques = {
     "Kathakali": ["Anand shivraman", "Krishnan kutti", "Balltol narayan menan"," Udaishankar","Krishan narayan", "Shantarav","Keejpadam kumaran nayar", "Chemancheri nayar"],
     
     "Kathak": ["Birju maharaj"," Lacchu maharaj", "Sukhdev maharaj","Sitara devi","Sobhna narayan","Chandralekha bindadin maharaj",
-              "Acchan maharaj","Manjushree chatarji","Kalika prasad","Uma sharma","Prerna deshpanday","Nandni singh","Narayan prasad"]
+              "Acchan maharaj","Manjushree chatarji","Kalika prasad","Uma sharma","Prerna deshpanday","Nandni singh","Narayan prasad"],
     
     "Manipuri": ["Jhaveri behan","Darshna nayana subarn ranjana","Guru amliSingh","Guru amubi","Guru vipin singh","Nalkumar Singh",
                 "L. vino devi","Charu mathur","Savita mehta","Nirmala mehta","Thambal yama","Rajkumar singhjeet singh"],
